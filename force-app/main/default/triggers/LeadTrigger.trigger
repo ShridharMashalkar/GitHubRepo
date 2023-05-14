@@ -6,6 +6,7 @@ trigger LeadTrigger on Lead__c (after insert,after update) {
                 //create related records
             }
             when AFTER_UPDATE {
+                LeadTriggerHandler.afterUpdate(Trigger.New,Trigger.oldMap);
                 //set value on record create
             }
             when else {
