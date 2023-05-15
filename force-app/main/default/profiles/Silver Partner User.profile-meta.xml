@@ -271,6 +271,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Turn_Around_Time__c.Time_Spent__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Turn_Around_Time__c.Time_Spent_in_Minutes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Turn_Around_Time__c.Unique_String__c</field>
         <readable>false</readable>
     </fieldPermissions>
