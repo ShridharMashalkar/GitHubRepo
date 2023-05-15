@@ -156,7 +156,7 @@
     <label>Turn Around Time</label>
     <nameField>
         <displayFormat>TAT-{000000}</displayFormat>
-        <label>Turn Around Time Name</label>
+        <label>TAT Name</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Turn Around Time</pluralLabel>
